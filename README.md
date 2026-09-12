@@ -14,7 +14,7 @@
   <!-- Badges Row -->
   <p align="center">
     <a href="https://github.com/nikksingh9">
-      <img src="https://img.shields.io/badge/Status-✨_Open_to_Internships_(Summer_2026)-ff79c6?style=for-the-badge" alt="Status Badge"/>
+      <img src="https://img.shields.io/badge/Status-✨_Open_to_Opportunities-ff79c6?style=for-the-badge" alt="Status Badge"/>
     </a>
     <a href="https://github.com/nikksingh9/portfolio">
       <img src="https://img.shields.io/badge/Maintained%3F-Yes-8be9fd?style=for-the-badge" alt="Maintained Badge"/>
@@ -88,23 +88,25 @@ Here are highlights of key projects featured inside the portfolio:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🏫 College Hub Web</h3>
+      <h3 align="center">☕ RiverBloom Café</h3>
       <p align="center">
-        <em>A unified campus portal providing students with fast access to lecture schedules, shared resources, and notices.</em>
+        <em>An artisanal riverside café & acoustic stage experience crafted with pure CSS animations, golden hour aesthetics, and an interactive 3D book menu.</em>
       </p>
       <ul>
-        <li><strong>Tech Stack:</strong> HTML5, Modern CSS3, Responsive Design</li>
-        <li><strong>Features:</strong> Intuitive navigation, campus notice board, resource catalog, mobile-friendly layouts.</li>
+        <li><strong>Tech Stack:</strong> Pure CSS3, Semantic HTML5, 3D Transforms</li>
+        <li><strong>Features:</strong> 3D flipping menu booklet, live acoustic stage with animated vinyl & visualizer, pure CSS photo gallery lightbox.</li>
+        <li><strong>Links:</strong> <a href="https://river-bloom-cafe.vercel.app">Live Demo</a> • <a href="https://github.com/nikksingh9/RiverBloom-Cafe">GitHub Repo</a></li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🩸 Blood Donation Platform</h3>
+      <h3 align="center">🌸 Developer Portfolio</h3>
       <p align="center">
-        <em>An emergency healthcare platform connecting blood banks with voluntary donors to streamline urgent requests.</em>
+        <em>Personal portfolio engineered with custom dark-mode aesthetics, responsive typography, and dynamic GitHub integration.</em>
       </p>
       <ul>
-        <li><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript ES6+, Form Validation</li>
-        <li><strong>Features:</strong> Filter donors by blood group, emergency contact request triggers, clean UX.</li>
+        <li><strong>Tech Stack:</strong> HTML5, Modern CSS3, JavaScript ES6+, GitHub API</li>
+        <li><strong>Features:</strong> Dynamic real-time GitHub repository fetching, glassmorphic UI, 1-click clipboard tools, reading progress tracker.</li>
+        <li><strong>Links:</strong> <a href="https://portfolio-vert-seven-zttylqs87z.vercel.app/">Live Demo</a> • <a href="https://github.com/nikksingh9/portfolio">GitHub Repo</a></li>
       </ul>
     </td>
   </tr>
@@ -175,7 +177,7 @@ Since this is a lightweight static site built with standard web technologies, no
 
 ## 📬 Get In Touch
 
-I am currently open to **Summer 2026 Software Engineering Internships**, collaborative projects, and discussions on algorithmic problem solving!
+I am currently open to **Software Engineering opportunities**, collaborative projects, and discussions on algorithmic problem solving!
 
 <div align="center">
 

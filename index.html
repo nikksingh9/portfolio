@@ -19,17 +19,11 @@
   <!-- Reading Progress Bar -->
   <div class="scroll-progress-bar" id="progressBar" aria-hidden="true"></div>
 
-  <!-- Ambient Girly Aesthetic Background Layer with Floating Orbs & Twinkling Sparkles -->
+  <!-- Ambient Girly Aesthetic Background Layer with Floating Orbs -->
   <div class="ambient-bg" aria-hidden="true">
     <div class="ambient-orb orb-1"></div>
     <div class="ambient-orb orb-2"></div>
     <div class="ambient-orb orb-3"></div>
-    <div class="sparkle sparkle-1">✦</div>
-    <div class="sparkle sparkle-2">✧</div>
-    <div class="sparkle sparkle-3">✦</div>
-    <div class="sparkle sparkle-4">⋆</div>
-    <div class="sparkle sparkle-5">✧</div>
-    <div class="sparkle sparkle-6">✦</div>
   </div>
 
   <!-- Navigation Bar -->
@@ -75,11 +69,6 @@
          ======================================================================= -->
     <header class="hero" id="hero">
       <div class="hero-text">
-        <div class="status-badge">
-          <span class="status-indicator"></span>
-          <span>✨ Open to Summer 2026 Internships</span>
-        </div>
-
         <h1 class="hero-title">
           Crafting <span class="title-accent">elegant software</span> &amp; modern web interfaces.
         </h1>
@@ -309,37 +298,45 @@
          ======================================================================= -->
     <section class="section" id="projects">
       <div class="section-head">
-        <div class="section-tag">✦ Selected Works</div>
+        <div class="section-tag">✦ Open Source &amp; Works</div>
         <h2 class="section-title">Featured Projects</h2>
-        <p class="section-desc">Projects highlighting functional software and responsive web design.</p>
+        <p class="section-desc">Real-time open-source repositories and applications fetched directly from my GitHub.</p>
       </div>
 
-      <div class="projects-grid">
-        <!-- Project 1: College Hub Web -->
-        <article class="project-card">
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Project 1: RiverBloom-Cafe -->
+        <article class="project-card" data-repo="RiverBloom-Cafe">
           <div class="project-cover">
-            <img src="assets/images/project-campus-hub.jpg" alt="College Hub Web Project Screenshot" loading="lazy">
+            <img src="assets/images/project-creative-studio.jpg" alt="RiverBloom Café Project Screenshot" loading="lazy">
           </div>
           <div class="project-body">
-            <h3 class="project-title">College Hub Web</h3>
+            <div class="project-header-row">
+              <h3 class="project-title">RiverBloom Café</h3>
+            </div>
+            <div class="repo-meta-row">
+              <span class="language-indicator">
+                <span class="language-dot" style="background-color: #563d7c;"></span>
+                <span>CSS</span>
+              </span>
+            </div>
             <p class="project-desc">
-              A unified campus portal providing students with fast access to lecture schedules, shared resources, and event notices.
+              An artisanal riverside café &amp; acoustic stage experience crafted with pure CSS animations, golden hour aesthetics, and an interactive 3D book menu.
             </p>
             <div class="project-tags">
               <span class="project-tag">HTML5</span>
               <span class="project-tag">CSS3</span>
-              <span class="project-tag">Responsive Design</span>
-              <span class="project-tag">Campus Tech</span>
+              <span class="project-tag">3D Book Menu</span>
+              <span class="project-tag">Acoustic Stage</span>
             </div>
             <div class="project-links">
-              <a href="#" class="project-action">
+              <a href="https://river-bloom-cafe.vercel.app" target="_blank" rel="noopener noreferrer" class="project-action">
                 <span>Live Demo</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="7" y1="17" x2="17" y2="7"></line>
                   <polyline points="7 7 17 7 17 17"></polyline>
                 </svg>
               </a>
-              <a href="https://github.com/nikksingh9" target="_blank" rel="noopener noreferrer" class="project-action">
+              <a href="https://github.com/nikksingh9/RiverBloom-Cafe" target="_blank" rel="noopener noreferrer" class="project-action">
                 <span>GitHub</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -349,31 +346,39 @@
           </div>
         </article>
 
-        <!-- Project 2: Blood Donation Website -->
-        <article class="project-card">
+        <!-- Project 2: portfolio -->
+        <article class="project-card" data-repo="portfolio">
           <div class="project-cover">
-            <img src="assets/images/project-blood-network.jpg" alt="Blood Donation Website Screenshot" loading="lazy">
+            <img src="assets/images/project-campus-hub.jpg" alt="Developer Portfolio Screenshot" loading="lazy">
           </div>
           <div class="project-body">
-            <h3 class="project-title">Blood Donation Website</h3>
+            <div class="project-header-row">
+              <h3 class="project-title">Developer Portfolio</h3>
+            </div>
+            <div class="repo-meta-row">
+              <span class="language-indicator">
+                <span class="language-dot" style="background-color: #e34c26;"></span>
+                <span>HTML</span>
+              </span>
+            </div>
             <p class="project-desc">
-              An emergency healthcare platform connecting blood banks with voluntary donors to streamline urgent requests by blood group.
+              Personal portfolio engineered with custom dark-mode aesthetics, responsive typography, and dynamic GitHub integration.
             </p>
             <div class="project-tags">
               <span class="project-tag">HTML5</span>
               <span class="project-tag">CSS3</span>
               <span class="project-tag">JavaScript</span>
-              <span class="project-tag">Form Handling</span>
+              <span class="project-tag">GitHub API</span>
             </div>
             <div class="project-links">
-              <a href="#" class="project-action">
+              <a href="https://portfolio-vert-seven-zttylqs87z.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-action">
                 <span>Live Demo</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <line x1="7" y1="17" x2="17" y2="7"></line>
                   <polyline points="7 7 17 7 17 17"></polyline>
                 </svg>
               </a>
-              <a href="https://github.com/nikksingh9" target="_blank" rel="noopener noreferrer" class="project-action">
+              <a href="https://github.com/nikksingh9/portfolio" target="_blank" rel="noopener noreferrer" class="project-action">
                 <span>GitHub</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -382,6 +387,19 @@
             </div>
           </div>
         </article>
+      </div>
+
+      <div class="projects-cta">
+        <a href="https://github.com/nikksingh9?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-github-explore">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          <span>Explore All Repositories on GitHub</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
       </div>
     </section>
 
@@ -406,7 +424,7 @@
           <div class="contact-info-header">
             <div class="contact-avatar-pill">
               <span class="contact-pulse-dot"></span>
-              <span>Available for Summer 2026 Internships</span>
+              <span>Available for Opportunities</span>
             </div>
             <h3 class="contact-info-title">Let's build something delightful together. ✨</h3>
             <p class="contact-info-text">
@@ -607,7 +625,7 @@
             </a>
             <div class="footer-status-chip">
               <span class="contact-pulse-dot"></span>
-              <span>Open for Summer 2026</span>
+              <span>Open for Opportunities</span>
             </div>
           </div>
         </div>
@@ -727,6 +745,150 @@
         }
       });
     });
+
+    // 5. Dynamic GitHub Projects Fetching
+    const GITHUB_USERNAME = 'nikksingh9';
+    const GITHUB_API_URL = `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=12`;
+
+    const LANGUAGE_COLORS = {
+      'CSS': '#563d7c',
+      'HTML': '#e34c26',
+      'JavaScript': '#f1e05a',
+      'TypeScript': '#3178c6',
+      'C++': '#f34b7d',
+      'C': '#555555',
+      'Python': '#3572A5'
+    };
+
+    const KNOWN_PROJECT_META = {
+      'RiverBloom-Cafe': {
+        title: 'RiverBloom Café',
+        image: 'assets/images/project-creative-studio.jpg',
+        description: 'An artisanal riverside café & acoustic stage experience crafted with pure CSS animations, golden hour aesthetics, and an interactive 3D book menu.',
+        tags: ['HTML5', 'CSS3', '3D Book Menu', 'Acoustic Stage']
+      },
+      'portfolio': {
+        title: 'Developer Portfolio',
+        image: 'assets/images/project-campus-hub.jpg',
+        description: 'Personal portfolio engineered with custom dark-mode aesthetics, responsive typography, and dynamic GitHub integration.',
+        tags: ['HTML5', 'CSS3', 'JavaScript', 'GitHub API']
+      }
+    };
+
+    function formatRepoTitle(name) {
+      if (KNOWN_PROJECT_META[name] && KNOWN_PROJECT_META[name].title) {
+        return KNOWN_PROJECT_META[name].title;
+      }
+      return name
+        .replace(/[-_]/g, ' ')
+        .replace(/\b\w/g, char => char.toUpperCase());
+    }
+
+    function createProjectCardHtml(repo) {
+      const meta = KNOWN_PROJECT_META[repo.name] || {};
+      const title = meta.title || formatRepoTitle(repo.name);
+      const desc = repo.description || meta.description || 'Modern software application built with clean architecture and responsive user experience.';
+      const lang = repo.language || 'Code';
+      const langColor = LANGUAGE_COLORS[lang] || '#f472b6';
+      
+      const tags = meta.tags || (repo.topics && repo.topics.length ? repo.topics : [lang, 'Responsive']);
+      const tagsHtml = tags.map(t => `<span class="project-tag">${t}</span>`).join('');
+
+      let coverHtml = '';
+      if (meta.image) {
+        coverHtml = `
+          <div class="project-cover">
+            <img src="${meta.image}" alt="${title} Screenshot" loading="lazy">
+          </div>`;
+      } else {
+        coverHtml = `
+          <div class="project-cover">
+            <div class="project-cover-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span class="project-cover-watermark">${lang}</span>
+            </div>
+          </div>`;
+      }
+
+      const liveDemoHtml = repo.homepage ? `
+        <a href="${repo.homepage}" target="_blank" rel="noopener noreferrer" class="project-action">
+          <span>Live Demo</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>` : '';
+
+      const starsHtml = repo.stargazers_count > 0 ? `
+        <span class="repo-stat-badge" title="${repo.stargazers_count} GitHub Stars">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>${repo.stargazers_count}</span>
+        </span>` : '';
+
+      return `
+        <article class="project-card" data-repo="${repo.name}">
+          ${coverHtml}
+          <div class="project-body">
+            <div class="project-header-row">
+              <h3 class="project-title">${title}</h3>
+            </div>
+            <div class="repo-meta-row">
+              <span class="language-indicator">
+                <span class="language-dot" style="background-color: ${langColor};"></span>
+                <span>${lang}</span>
+              </span>
+              ${starsHtml}
+            </div>
+            <p class="project-desc">${desc}</p>
+            <div class="project-tags">
+              ${tagsHtml}
+            </div>
+            <div class="project-links">
+              ${liveDemoHtml}
+              <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer" class="project-action">
+                <span>GitHub</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    async function loadGitHubProjects() {
+      const grid = document.getElementById('projectsGrid');
+      if (!grid) return;
+
+      try {
+        const response = await fetch(GITHUB_API_URL);
+        if (!response.ok) {
+          // Keep progressive fallback cards
+          return;
+        }
+
+        const repos = await response.json();
+        if (!Array.isArray(repos) || repos.length === 0) {
+          return;
+        }
+
+        // Filter out forks
+        const filteredRepos = repos.filter(r => !r.fork);
+        const displayRepos = filteredRepos.length > 0 ? filteredRepos : repos;
+
+        grid.innerHTML = displayRepos.map(repo => createProjectCardHtml(repo)).join('');
+      } catch (err) {
+        console.warn('Could not fetch live GitHub repositories, keeping cached projects:', err);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadGitHubProjects);
   </script>
 
 </body>
